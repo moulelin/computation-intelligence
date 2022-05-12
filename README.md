@@ -9,7 +9,7 @@
 - Mei JiaoJuiao (as author of <span style="color:blue">TBD</span> section of this wiki)
 - Ibrahimli Farid (as author of <span style="color:blue">TBD</span> section of this wiki)
 
-The original paper, and its repository can by found at: https://github.com/moulelin/MUMLP
+The original paper, and its repository can be found at: https://github.com/moulelin/MUMLP
 
 Content of this repository:
 
