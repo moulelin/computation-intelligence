@@ -1,3 +1,5 @@
+<img src="/pics/LOGOS.png">
+
 # MUMLP project introduction
 ### A Computational Intelligence Project
 
