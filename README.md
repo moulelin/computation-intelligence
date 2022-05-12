@@ -16,5 +16,5 @@ Content of this repository:
 - TBD by Mei Jiao Jiao at <span style="color:blue">(link folder here)</span>
 - TBD by Ibrahimli Farid at <span style="color:blue">(link folder here)</span>
 - Explanation of the paper by Lin Moule at <span style="color:blue">(link folder here)</span>
-- Pictures of this repository can be found at 
+- Pictures of this repository can be found at [master / pics](https://github.com/moulelin/computation-intelligence/tree/master/pics)
 
