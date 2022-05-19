@@ -76,7 +76,7 @@ It comprises <u>three main phases</u>, preprocessed input data, hierarchical mul
 
 
 <center class="third">
-<img src="../pics/image-20220518233549168.png" alt="image-20220518233549168" style="zoom:5%;" />
+<img src="../pics/image-20220518233549168.png" alt="image-20220518233549168" style="zoom:5%;;width=30%" />
 <img src="../pics/image-20220519004942484.png" alt="image-20220519004942484" style="zoom:15%;" />
 </center>
 
