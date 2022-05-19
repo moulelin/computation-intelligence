@@ -16,9 +16,9 @@ Now imagine a normal <u>three-channel RGB</u> picture, it is a combination of <u
 All the values of R,G and B are assumed to be in the range [0,1]. The <u>reflectance_wavelength</u> of a normal RGB image is like a <u>discrete</u> function with only three points which is exactly corresponding to red green blue value.
 
 <center class="third">
-<img src="../pics/image-20220518223413909.png" alt="image-20220518223413909" style="zoom:18%;width:20%;float:left" />
-<img src="../pics/image-20220518223606399.png" alt="image-20220518223606399" style="zoom:18%;width:20%;float:left" />
-<img src="../pics/image-20220518223819253.png" alt="image-20220518223819253" style="zoom:28%;width:20%;float:left" />
+<img src="../pics/image-20220518223413909.png" alt="image-20220518223413909" style="zoom:18%;width:20%;float:left;display:block" />
+<img src="../pics/image-20220518223606399.png" alt="image-20220518223606399" style="zoom:18%;width:20%;float:left;display:block" />
+<img src="../pics/image-20220518223819253.png" alt="image-20220518223819253" style="zoom:28%;width:20%;float:left;display:block" />
 </center>
 
 
