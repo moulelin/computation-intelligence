@@ -16,32 +16,36 @@ Now imagine a normal <u>three-channel RGB</u> picture, it is a combination of <u
 All the values of R,G and B are assumed to be in the range [0,1]. The <u>reflectance_wavelength</u> of a normal RGB image is like a <u>discrete</u> function with only three points which is exactly corresponding to red green blue value.
 
 <center class="third">
-<img src="../pics/image-20220518223413909.png" alt="image-20220518223413909" style="zoom:18%;" />
-<img src="../pics/image-20220518223606399.png" alt="image-20220518223606399" style="zoom:18%;" />
-<img src="../pics/image-20220518223819253.png" alt="image-20220518223819253" style="zoom:28%;" />
+<img src="../pics/image-20220518223413909.png" alt="image-20220518223413909" style="zoom:18%;width:15%" />
+<img src="../pics/image-20220518223606399.png" alt="image-20220518223606399" style="zoom:18%;width:15%" />
+<img src="../pics/image-20220518223819253.png" alt="image-20220518223819253" style="zoom:28%;width:15%" />
 </center>
+
 
  **what is a Hyper spectral Image?** Well, a normal RGB image has three channels while <u>a hyper spectral image can have hundreds of channels</u>.The <u>reflectance_wavelength</u> of a normal hyper spectral image is like a <u>"continuous"</u> function.
 
 <center class="third">
-<img src="../pics/image-20220518224540856.png" alt="image-20220518224540856" style="zoom:15%;" />
-<img src="../pics/image-20220518224616401.png" alt="image-20220518224616401" style="zoom:15%;" />
-<img src="../pics/image-20220518224651545.png" alt="image-20220518224651545" style="zoom:15%;" />
+<img src="../pics/image-20220518224540856.png" alt="image-20220518224540856" style="zoom:15%;width:15%" />
+<img src="../pics/image-20220518224616401.png" alt="image-20220518224616401" style="zoom:15%;width:15%" />
+<img src="../pics/image-20220518224651545.png" alt="image-20220518224651545" style="zoom:15%;width:15%" />
 </center>
+
 
 I think everyone agrees here that hyper spectral image provides us with more information than a normal RGB image does. <u>More colors, more information.</u> Just think about that an x-ray image can provide information which is beyond what we see, becuase <u>human eyes can only sense visible wavelength</u>. A hyper spectral image is able to capture a <u>wider range</u> of wavelength.
 
 <center class="third">
-<img src="../pics/image-20220518225620202.png" alt="image-20220518225620202" style="zoom:33%;" />
+<img src="../pics/image-20220518225620202.png" alt="image-20220518225620202" style="zoom:33%;width:18%" />
 </center>
+
 
 **Then what kind of information does HSI provide us? How can we do with it?**
 
 HSI have been widely used in analyzing the earth’s surface due to its <u>high distinctive capability to classify and discriminate different materials</u>, which in turn has opened new doors for a vast range of applications such as <u>mineral detection, precision farming, urban planning, environmental monitoring and management, and surveillance.</u> For example,<u>remote sensing scene</u> can also be seen as a pile of scenes taken in <u>diverse wavelengths</u> (spectral channels), which results in a <u>hyperspectral image</u>. Specifically, each spectral channel of the hyperspectral data cube represents a gray-level image as presented in below. The size of the 3D data cube is *L*1 × *L*2 × *S* where *L*1 × *L*2 is the size of each spectral channel while *S* is the total count of spectral bands. More specifically, hyperspectral scene is divided into spectral and spatial characteristics.
 
 <center class="third">
-<img src="../pics/image-20220518231340206.png" alt="image-20220518231340206" style="zoom:25%;" />
+<img src="../pics/image-20220518231340206.png" alt="image-20220518231340206" style="zoom:25%;width:20%" />
 </center>
+
 
 ### Challenges in Hyperspectral Image Classification
 
