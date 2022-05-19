@@ -16,25 +16,25 @@ Now imagine a normal <u>three-channel RGB</u> picture, it is a combination of <u
 All the values of R,G and B are assumed to be in the range [0,1]. The <u>reflectance_wavelength</u> of a normal RGB image is like a <u>discrete</u> function with only three points which is exactly corresponding to red green blue value.
 
 <center class="third">
-<img src="../pics/image-20220518223413909.png" alt="image-20220518223413909" style="zoom:18%;" />
-<img src="../pics/image-20220518223606399.png" alt="image-20220518223606399" style="zoom:18%;" />
-<img src="../pics/image-20220518223819253.png" alt="image-20220518223819253" style="zoom:28%;" />
+<img src="../pics/image-20220518223413909.png" alt="image-20220518223413909" style="zoom:10%;" />
+<img src="../pics/image-20220518223606399.png" alt="image-20220518223606399" style="zoom:10%;" />
+<img src="../pics/image-20220518223819253.png" alt="image-20220518223819253" style="zoom:20%;" />
 </center>
 
 
  **what is a Hyper spectral Image?** Well, a normal RGB image has three channels while <u>a hyper spectral image can have hundreds of channels</u>.The <u>reflectance_wavelength</u> of a normal hyper spectral image is like a <u>"continuous"</u> function.
 
 <center class="third">
-<img src="../pics/image-20220518224540856.png" alt="image-20220518224540856" style="zoom:15%;" />
-<img src="../pics/image-20220518224616401.png" alt="image-20220518224616401" style="zoom:15%;" />
-<img src="../pics/image-20220518224651545.png" alt="image-20220518224651545" style="zoom:15%;" />
+<img src="../pics/image-20220518224540856.png" alt="image-20220518224540856" style="zoom:10%;" />
+<img src="../pics/image-20220518224616401.png" alt="image-20220518224616401" style="zoom:10%;" />
+<img src="../pics/image-20220518224651545.png" alt="image-20220518224651545" style="zoom:10%;" />
 </center>
 
 
 I think everyone agrees here that hyper spectral image provides us with more information than a normal RGB image does. <u>More colors, more information.</u> Just think about that an x-ray image can provide information which is beyond what we see, becuase <u>human eyes can only sense visible wavelength</u>. A hyper spectral image is able to capture a <u>wider range</u> of wavelength.
 
 <center class="third">
-<img src="../pics/image-20220518225620202.png" alt="image-20220518225620202" style="zoom:33%;" />
+<img src="../pics/image-20220518225620202.png" alt="image-20220518225620202" style="zoom:18%;" />
 </center>
 
 
@@ -76,9 +76,10 @@ It comprises <u>three main phases</u>, preprocessed input data, hierarchical mul
 
 
 <center class="third">
-<img src="../pics/image-20220518233549168.png" alt="image-20220518233549168" style="zoom:20%;" />
-<img src="../pics/image-20220519004942484.png" alt="image-20220519004942484" style="zoom:20%;" />
+<img src="../pics/image-20220518233549168.png" alt="image-20220518233549168" style="zoom:5%;" />
+<img src="../pics/image-20220519004942484.png" alt="image-20220519004942484" style="zoom:15%;" />
 </center>
+
 
 #### Noise Detection and Removal
 
@@ -119,22 +120,25 @@ Repeat over the subsequent elementary stages till no additional development is c
 <u>Auto-encoder</u> is unsupervised deep learning architecture that perform regeneration of the <u>representation</u> that it receives as an input with compression. <u>Input and output layers in auto-encoder have the same size.</u> The purpose of an auto-encoder is to acquire a compressed distributed depiction for the given input, typically for the purpose of dimensionality reduction and feature extraction. <u>Stacked Auto-Encoder (SAE)</u> is the extension of auto-encoder procedure.It learns a hidden feature from input. For instance, <u>if we use the hidden layer that is much smaller than the input layer</u>, it means auto-encoder is going to <u>compress</u> the information, <u>ignore</u> the part of input that is <u>not useful</u> for reconstructing it and <u>focuses on</u> the part of the input that is more important to extract from it, for subsequent reconstruction. Therefore, it could be used to <u>extract meaning full feature for classification.</u>
 
 <center class="third">
-<img src="../pics/image-20220519023253583.png" alt="image-20220519023253583" style="zoom:20%;" />
+<img src="../pics/image-20220519023253583.png" alt="image-20220519023253583" style="zoom:10%;" />
 </center>
+
 
  A <u>general flowchart</u> of the framework is presented in below, which consists of <u>three</u> main phases: <u>first,</u> boundary adjustment based channel selection approach is utilized to select the most discriminative and informative channels. <u>Secondly,</u> adaptive boundary movement based segment approach is employed to partition the scene into spatially similar regions. <u>Thirdly,</u> the resulted segmented boundaries are used as adaptive windows for computing SAE-based shallow and deep features. <u>Next,</u> learned spectral-spatial features are fed into multinomial logistic regression (MLR) for classification. 
 
 <center class="third">
-<img src="../pics/image-20220519022612901.png" alt="image-20220519022612901" style="zoom:20%;" />
+<img src="../pics/image-20220519022612901.png" alt="image-20220519022612901" style="zoom:15%;" />
 </center>
+
 
 ##### Deep Belief Network
 
 **A Deep Belief Network** can be observed from a perspective of layers of neural network which is generative in nature. Each part consists of Restricted Boltzmann Machine (RBM). It comprises a layer for data input and a hidden layer. <u>Hidden layer learn parameters to characterize data that detect higher order relationship between the received information</u> shown in below.
 
 <center class="third">
-<img src="../pics/image-20220519025118152.png" alt="image-20220519025118152" style="zoom:18%;" />
+<img src="../pics/image-20220519025118152.png" alt="image-20220519025118152" style="zoom:10%;" />
 </center>
+
 The entire procedure can be explained in steps as
 
 1. Given data is utilized to make the train the individual layer of DBN. In order to train the particular layer, Contrastive Divergence (CD) is exploited.
@@ -145,8 +149,9 @@ The entire procedure can be explained in steps as
 This framework represents a distinguishing contextually modified deep belief net(SDBN) that effectually <u>employs contextual characteristics</u> inside spectrally matching adjacent pixels <u>for hyperspectral scene classification.</u> In the developed framework, scene is initially partitioned into flexible edge regulation rooted contextually comparable areas that possess the same spectral characteristics, succeeding a structural feature mining and classification is commenced utilizing Deep Belief Network (DBN) rooted outcome merging technique <u>that joins contextually partitioned contextual and spectral data into a DBN network for improved spectral-spatial hyperspectral scene classification.</u> 
 
 <center class="third">
-<img src="../pics/image-20220519024853299.png" alt="image-20220519024853299" style="zoom:20%;" />
+<img src="../pics/image-20220519024853299.png" alt="image-20220519024853299" style="zoom:15%;" />
 </center>
+
 
 ### Dataset
 
