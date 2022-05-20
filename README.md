@@ -13,8 +13,8 @@ The original paper, and its repository can be found at: https://github.com/moule
 
 Content of this repository:
 
-- Deep Learning for classification by Mei Jiao Jiao at <span style="color:blue">(https://github.com/moulelin/computation-intelligence/tree/master/TBD%20for%20Mei%20Jiao%20Jiao)</span>
-- TBD by Ibrahimli Farid at <span style="color:blue">(link folder here)</span>
+- Deep Learning for classification by Mei Jiao Jiao at [master / Deep learning for classification](https://github.com/moulelin/computation-intelligence/tree/master/Deep%20learning%20for%20classification))
+- TBD by Ibrahimli Farid at <span style="color:blue">
 - Explanation of the paper by Lin Moule at <span style="color:blue">(link folder here)</span>
 - Pictures of this repository can be found at [master / pics](https://github.com/moulelin/computation-intelligence/tree/master/pics)
 
