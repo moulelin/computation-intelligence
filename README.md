@@ -6,7 +6,7 @@
 ### Participants:
 - Márk Domonkos (as team leader)
 - Lin Moule (as author of the original paper, and author of the MUMLP section of this wiki)
-- Mei JiaoJuiao (as author of <span style="color:blue">TBD</span> section of this wiki)
+- Mei JiaoJuiao (as author of "Deep learning for classification" section of this wiki)
 - Ibrahimli Farid (as author of <span style="color:blue">TBD</span> section of this wiki)
 
 The original paper, and its repository can be found at: https://github.com/moulelin/MUMLP
